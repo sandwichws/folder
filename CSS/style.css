@@ -1,17 +1,17 @@
-*{ background-color: #E0FFFF;}
 
  h1 {
-letter-spacing: 25px;
+letter-spacing: 5px;
 font-family: 'Noto Sans', sans-serif;
-
 }
+
+body{ background-color: #90caf9;}
 .sign {
-    float: right; /* Выравнивание по правому краю */
-    border: 1px solid #333; /* Параметры рамки */
-    padding: 7px; /* Поля внутри блока */
-    margin: 10px 0 5px 5px; /* Отступы вокруг */
-    background: #f0f0f0; /* Цвет фона */
-   }
-   .sign figcaption {
-    margin: 0 auto 5px; /* Отступы вокруг абзаца */
-   }
+float: right; /* Выравнивание по правому краю */
+padding: 2px; /* Поля внутри блока */
+border: 1px solid #333; /* Параметры рамки */
+margin: 10px 0 5px 50px; /* Отступы вокруг */
+background: ##adadad; /* Цвет фона */
+}
+.sign figcaption {
+margin: 0 auto 1px; /* Отступы вокруг абзаца */
+}
