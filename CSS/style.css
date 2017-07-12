@@ -1,17 +1,92 @@
-
- h1 {
-letter-spacing: 5px;
-font-family: 'Noto Sans', sans-serif;
+* {
+    box-sizing: border-box;
 }
-
 body{ background-color: #90caf9;}
-.sign {
-float: right; /* Выравнивание по правому краю */
-padding: 2px; /* Поля внутри блока */
-border: 1px solid #333; /* Параметры рамки */
-margin: 10px 0 5px 50px; /* Отступы вокруг */
-background: ##adadad; /* Цвет фона */
+
+
+html {
+    font-family: 'Noto Sans', sans-serif;
 }
-.sign figcaption {
-margin: 0 auto 1px; /* Отступы вокруг абзаца */
+
+.tabpos{
+margin-top: -3%;
+}
+@media only screen and (min-width: 550px) {
+  .header {
+      background-color: #F9603F;
+      color: #ffffff;
+      margin-top: -2%;
+      font-size: 200%;
+      max-width: 70%;
+      padding: 0px;
+      margin-left: 12%;
+      letter-spacing: 2px;
+      box-shadow: 0 2px 20px rgba(1,0,0,0.12), 0 3px 20px rgba(1,0,0,0.24);
+  }
+
+}
+@media only screen and (max-width: 550px) {
+  .header {
+      background-color: #F9603F;
+      color: #ffffff;
+      margin-top: -2%;
+      font-size: 150%;
+      max-width: 100%;
+      padding: 0px;
+      letter-spacing: 2px;
+      box-shadow: 0 2px 20px rgba(1,0,0,0.12), 0 3px 20px rgba(1,0,0,0.24);
+  }
+}
+@media only screen and (min-width: 550px) {
+  .sign {
+  float: right;
+  padding: 2px;
+  border: 1px solid #333;
+  background: #ffffff;
+  }
+  .ava{
+   width:250px;
+    height:200px;
+
+  }
+  .facb{
+    width:50px;
+    height:50px;
+    margin-left: 85%;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .sign {
+  padding: 2px;
+  border: 1px solid #333;
+  background: #ffffff;
+  width:230px;
+  height:230px;
+  margin: 0 auto;
+
+  }
+  .ava{
+   width:225px;
+    height:180px;
+    margin: 0 auto;
+  }
+
+  .facb{
+    width:50px;
+    height:50px;
+    margin-left: 45%;
+  }
+
+}
+
+.clr{
+  background-color: #e6f9ff;
+  width: 90%;
+  margin-left: 5%;
+
+}
+.txtgap{
+  margin-left: 5%;
 }
