@@ -7,6 +7,9 @@ body{ background-color: #90caf9;}
 html {
     font-family: 'Noto Sans', sans-serif;
 }
+.lsttype{
+  list-style-type: disc;
+}
 
 .tabpos{
 margin-top: -3%;
@@ -84,9 +87,16 @@ margin-top: -3%;
 .clr{
   background-color: #e6f9ff;
   width: 90%;
+
   margin-left: 5%;
+  margin-top: 2%;
 
 }
 .txtgap{
+  margin-left: 5%;
+  margin-bottom: 3%;
+
+}
+.txtgap2{
   margin-left: 5%;
 }
